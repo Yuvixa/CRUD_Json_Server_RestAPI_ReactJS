@@ -1,0 +1,52 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "jhon",
+      "email": "jh@in.com",
+      "phone": "8989789900"
+    },
+    {
+      "name": "Yuvixa Camiña",
+      "email": "dfsadgdga",
+      "phone": "962366350",
+      "active": "true",
+      "id": 2
+    },
+    {
+      "name": "Lowi",
+      "email": "lolo@bruno.com",
+      "phone": "33333333333333",
+      "active": "true",
+      "id": 3
+    },
+    {
+      "name": "Victoria",
+      "email": "vicky@viable.com",
+      "phone": "65942054513",
+      "active": "true",
+      "id": 4
+    },
+    {
+      "name": "Max ",
+      "email": "maxi@alianza.cristal",
+      "phone": "66666666666",
+      "active": "true",
+      "id": 5
+    },
+    {
+      "name": "Ik ",
+      "email": "been",
+      "phone": "brood",
+      "active": "true",
+      "id": 6
+    },
+    {
+      "name": "Delia",
+      "email": "delia@pomahuaca.com",
+      "phone": "5486451364",
+      "active": "true",
+      "id": 7
+    }
+  ]
+}
