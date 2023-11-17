@@ -7,6 +7,7 @@ const EmpCreate = () => {
   const [email, emailchange] = useState('');
   const [phone, phonechange] = useState('');
   const [active, activechange] = useState('true'); //lo llamas desde un componente o un hook customizado , no dentro de una funcion
+  const [validation, valChange] = useState('false');
 
   const navigate = useNavigate();
 
@@ -18,7 +19,7 @@ const EmpCreate = () => {
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify(empdata),
     })
-      .then((res) => {
+      .then((_res) => {
         alert('Saved successfully.');
         navigate('/');
       })
@@ -51,16 +52,23 @@ const EmpCreate = () => {
                       ></input>
                     </div>
                   </div>
+
                   <div className="col-lg-12">
                     <div className="form-group">
                       <label>Name</label>
                       <input
+                        required
                         value={name}
+                        onMouseDown={(_e) => valChange(true)}
                         onChange={(e) => namechange(e.target.value)}
                         className="form-control"
                       ></input>
+                      {name.length === 0 && validation && (
+                        <span className="text-danger">Enter the name</span>
+                      )}
                     </div>
                   </div>
+
                   <div className="col-lg-12">
                     <div className="form-group">
                       <label>Email</label>

@@ -14,11 +14,10 @@
       "id": 2
     },
     {
-      "name": "Lowi",
+      "id": 3,
+      "name": "Lowicnsknkas",
       "email": "lolo@bruno.com",
-      "phone": "33333333333333",
-      "active": "true",
-      "id": 3
+      "phone": "33333333333333"
     },
     {
       "name": "Victoria",
@@ -35,18 +34,10 @@
       "id": 5
     },
     {
-      "name": "Ik ",
-      "email": "been",
-      "phone": "brood",
-      "active": "true",
-      "id": 6
-    },
-    {
-      "name": "Delia",
-      "email": "delia@pomahuaca.com",
-      "phone": "5486451364",
-      "active": "true",
-      "id": 7
+      "id": 6,
+      "name": "jhghjhj",
+      "email": "jbljlblnl",
+      "phone": "515656103"
     }
   ]
 }
